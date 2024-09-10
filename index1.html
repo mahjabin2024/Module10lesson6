@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form oninput="average.value=(parseInt(input1.value)+parseInt(input2.value)+parseInt(input3.value))/3">
+    
+        <label>Name</label>
+        <input type="name">
+        <br /><br />
+        <label>Marks</label>
+        <br />
+        <select name="Subjects">
+            <option value="maths">Maths</option>
+            <option value="english">English</option>
+            <option value="science">Science</option>
+        </select>
+        <input type="number" id="input1" value="0">
+        <br /><br />
+        <select name="Subjects">
+            <option value="maths">Maths</option>
+            <option value="english">English</option>
+            <option value="science">Science</option>
+        </select>
+        <input type="number" id="input2" value="0">
+        <br /><br />
+        <select name="Subjects">
+            <option value="maths">Maths</option>
+            <option value="english">English</option>
+            <option value="science">Science</option>
+        </select>
+        <input type="number" id="input3" value="0">
+        <br /><br />
+<label>Average:</label>
+<output name="average" for="input1 input2 input3"></output>
+    </form>
+
+</body>
+
+</html>
